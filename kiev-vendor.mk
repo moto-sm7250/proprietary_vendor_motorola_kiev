@@ -79,14 +79,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kiev/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/kiev/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
+    vendor/motorola/kiev/proprietary/recovery/root/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8624_haptic.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw8624_osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_osc_rtp_24K_5s.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
+    vendor/motorola/kiev/proprietary/recovery/root/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8624_rtp.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw8624_rtp_lighthouse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp_lighthouse.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw8624_rtp_silk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp_silk.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw882xx_afe_params.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_afe_params.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-csot-ft8756-05-0000-kiev.bin \
+    vendor/motorola/kiev/proprietary/recovery/root/vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech-csot-ft8756-05-0000-kiev.bin \
     vendor/motorola/kiev/proprietary/vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-tm-ft8756-07-0000-kiev.bin \
+    vendor/motorola/kiev/proprietary/recovery/root/vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech-tm-ft8756-07-0000-kiev.bin \
     vendor/motorola/kiev/proprietary/vendor/lib/hw/audio.primary.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.lito.so \
     vendor/motorola/kiev/proprietary/vendor/lib/hw/sound_trigger.primary.lito.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.lito.so \
     vendor/motorola/kiev/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \

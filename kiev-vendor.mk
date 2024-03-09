@@ -14,41 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kiev/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
     vendor/motorola/kiev/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/kiev/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
-    vendor/motorola/kiev/proprietary/product/lib64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libSNPE.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSNPE.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libarcsoft_scbokeh_Generic.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_scbokeh_Generic.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_supernight.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_superportrait.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libas-super-slow-motion.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libbarhopper_v2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbarhopper_v2.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libdoc-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdoc-util.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdynamic_depth.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libfn-beauty-vfb-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-base.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-dynamic_depth.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
-    vendor/motorola/kiev/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-stand-alone-sm.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_cinema_graph.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmorpho_image_refiner_1_4_2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_image_refiner_1_4_2.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
-    vendor/motorola/kiev/proprietary/product/lib64/libsmudge_detect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmudge_detect.so \
     vendor/motorola/kiev/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/kiev/proprietary/system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
     vendor/motorola/kiev/proprietary/system_ext/etc/public.libraries-motocamera.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-motocamera.txt \
